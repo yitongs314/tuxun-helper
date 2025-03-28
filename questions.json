@@ -1,0 +1,972 @@
+{
+    "车辆":{
+        "questions": [
+            {
+                "label": "你看到的车牌颜色是？",
+                "options": [
+                    {
+                        "option_name": "纯白色",
+                        "image": "images/white_plate.jpg"
+                    },
+                    {
+                        "option_name": "纯蓝色",
+                        "image": "images/blue_plate.jpg"
+                    },
+                    {
+                        "option_name": "纯绿色",
+                        "image": "images/green_plate.jpg"
+                    },
+                    {
+                        "option_name": "纯红色",
+                        "image": "images/red_plate.jpg"
+                    },
+                    {
+                        "option_name": "纯黑色",
+                        "image": "images/black_plate.jpg"
+                    },
+                    {
+                        "option_name": "纯黄色",
+                        "image": "images/yellow_plate.jpg"
+                    },
+                    {
+                        "option_name": "左蓝右白",
+                        "image": "images/blue_white_plate.jpg"
+                    },
+                    {
+                        "option_name": "左蓝中白右蓝",
+                        "image": "images/blue_white_blue_plate.jpg"
+                    },
+                    {
+                        "option_name": "左蓝右黄",
+                        "image": "images/blue_yellow_plate.jpg"
+                    },
+                    {
+                        "option_name": "左红右白",
+                        "image": "images/left_red_right_white_plate.jpg"
+                    },
+                    {
+                        "option_name": "上蓝下白",
+                        "image": "images/top_blue_bottom_white_plate.jpg"    
+                    },
+                    {
+                        "option_name": "无法确定车牌颜色",
+                        "image": "images/unknown.jpg"
+                    }
+                ],
+                "scoring": {
+                    "纯白色": {
+                        "Andorra": 1, "Australia": 1, "Bolivia": 1, 
+                        "Bostwana": 1, "Cambodia": 1, "Chile": 1, "Canada": 1,
+                        "Ecuador": 1, "Guatemala": 1, "Ghana": 1,
+                        "Japan": 1, "Iceland": 1, "India": 1,
+                        "Kenya": 0.5, "Lesotho": 1, "Mexico": 1,
+                        "Mongolia": 1, "New Zealand": 1, "Nigeria": 1,
+                        "Peru": 1, "Philippines": 1, "Russia": 1,
+                        "South Africa": 1, "South Korea": 1, "Sri Lanka": 1, 
+                        "Switzerland": 1, "Taiwan": 1, "Thailand": 1,
+                        "Tunisia": 0.5, "United States": 1
+                    },
+                    "纯蓝色": {
+                        "Senegal": 3, "United States": 0.25
+                    },
+                    "纯绿色": {
+                        "United States": 1, "Norway": 3
+                    },
+                    "纯红色": {
+                        "Bhutan": 3,
+                        "Ghana": 0.5
+                    },
+                    "纯黑色": {
+                        "Bangladesh": 1, "Indonesia": 3, "Malaysia": 3,
+                        "Singapore": 3, "Tunisia": 1
+                    },
+                    "纯黄色": {
+                        "Australia": 0.25, "Botswana": 1, "Colombia": 1, 
+                        "Japan": 0.5, "Kenya": 1, "Sri Lanka": 0.5,
+                        "United Kingdom of Great Britain and Northern Ireland": 1,
+                        "United States": 0.25, "Uganda": 1
+                    },
+                    "左蓝右白": {
+                        "Albania": 1, "Austria": 1, "Belgium": 1,
+                        "Croatia": 1, "Czech Republic": 1, "Denmark": 1,
+                        "Estonia": 1, "Finland": 1, "Germany": 1,
+                        "Greece": 1, "Hungary": 1, "Ireland": 1, 
+                        "Iceland": 0.5, "Latvia": 1, "Lithuania": 1,
+                        "Malta": 1, "Montenegro": 1, "Norway": 1,
+                        "Poland": 1, "Portugal": 1, "Romania": 1,
+                        "Serbia": 1, "Slovakia": 1, "Slovenia": 1,
+                        "Spain": 1, "Sweden": 1, "Turkey": 1, "Ukraine": 0.5
+                    },
+                    "左蓝中白右蓝": {
+                        "France": 3, "Italy": 3, "Albania": 1, "New Zealand": 0.25
+                    },
+                    "左蓝右黄": {
+                        "Denmark": 0.25, "France": 0.25, "Israel": 3,
+                        "Luxembourg": 3, "Netherlands": 3
+                    },
+                    "左红右白": {
+                        "Jordan": 1, "Tunisia": 0.25, "United Arab Emirates": 1,
+                        "Kyrgyzstan": 1, "Qatar": 1
+                    },
+                    "上蓝下白": {
+                        "Argentina": 1, "Brazil": 1, "United States": 0.25,
+                        "Uruguay": 1
+                    },
+                    "无法确定车牌颜色": {
+                    }
+                }
+            },
+            {
+                "label": "你看到的车牌形状是？",
+                "options": [
+                    {
+                        "option_name": "矮长牌",
+                        "image": "images/矮长_plate.jpg"
+                    },
+                    {
+                        "option_name": "高短牌",
+                        "image": "images/高短_plate.jpg"
+                    },
+                    {
+                        "option_name": "前矮短/后矮长",
+                        "image": "images/前矮短后矮长_plate.jpg"
+                    },
+                    {
+                        "option_name": "前矮长/后高短",
+                        "image": "images/前矮长后高短_plate.jpg"
+                    },
+                    {
+                        "option_name": "无法确定车牌形状",
+                        "image": "images/unknown.jpg"
+                    }
+                ],
+                "scoring": {
+                    "矮长牌": {
+                        "Argentina": 1, "Austria": 1, "Australia": 1, 
+                        "Belgium": 1, "Botswana": 1, "Brazil": 1, 
+                        "Bulgaria": 1, "Chile": 1, "Croatia": 1, 
+                        "Czech Republic": 1, "Denmark": 1, "Estonia": 1,
+                        "Eswatini": 1, "Finland": 1, "France": 1,
+                        "Germany": 1, "Ghana": 1, "Greece": 1, "Hungary": 1,
+                        "Iceland": 1, "India": 1, "Indonesia": 1,
+                        "Ireland": 1, "Israel": 1, "Jordan": 1,
+                        "Kyrgyzstan": 1, "Latvia": 1, "Lesotho": 1,
+                        "Lithuania": 1, "Luxembourg": 1, "Malaysia": 1,
+                        "Malta": 1, "Mongolia": 1, "Montenegro": 1, 
+                        "Netherlands": 1, "New Zealand": 1, "Norway": 1, 
+                        "Philippines": 1, "Poland": 1, "Portugal": 1, 
+                        "Qatar": 1, "Romania": 1, "Russia": 1,
+                        "Senegal": 1, "Serbia": 1, "Singapore": 1,
+                        "Slovakia": 1, "Slovenia": 1, "South Africa": 1,
+                        "South Korea": 1, "Spain": 1, "Sri Lanka": 1,
+                        "Sweden": 1, "Switzerland": 1, "Tunisia": 1,
+                        "Turkey": 1, "Uganda": 1, "Ukraine": 1,
+                        "United Arab Emirates": 1,
+                        "United Kingdom of Great Britain and Northern Ireland": 1,
+                        "Uruguay": 1
+                    },
+                    "高短牌": {
+                        "Bangladesh": 1, "Bhutan": 1, "Bolivia": 1,
+                        "Cambodia": 1, "Canada": 1, "Colombia": 1,
+                        "Dominican Republic": 1, "Ecuador": 1, "Guatemala": 1,
+                        "Japan": 1, "Mexico": 1, "Nigeria": 1,
+                        "Peru": 1, "Taiwan": 1, "Thailand": 1, 
+                        "United States": 1
+                    },
+                    "前矮短/后矮长": {
+                        "Italy": 3
+                    },
+                    "前矮长/后高短": {
+                        "Kenya": 1, "Switzerland": 0.5, "Uganda": 0.5
+                    },
+                    "无法确定车牌形状": {
+                    }
+                }
+            },
+            {
+                "label": "你看到的行车方向或方向盘位置是？",
+                "options": [
+                    {
+                        "option_name": "右行车/左舵",
+                        "image": "images/right_side_driving.jpg",
+                        "exclude": [
+                            "United Kingdom of Great Britain and Northern Ireland",
+                            "Ireland", "Uganda", "Kenya",
+                            "South Africa", "Botswana", "Lesotho",
+                            "Malta", "Eswatini", "India", "Sri Lanka",
+                            "Bangladesh", "Bhutan", "Thailand", 
+                            "Malaysia", "Indonesia", "Australia",
+                            "New Zealand", "Japan", "Singapore"
+                        ]
+                    },
+                    {
+                        "option_name": "左行车/右舵",
+                        "image": "images/left_side_driving.jpg",
+                        "exclude": [
+                            "Albania", "Andorra", "Argentina",
+                            "Austria", "Belgium", "Bolivia",
+                            "Brazil", "Bulgaria", "Cambodia",
+                            "Canada", "Chile", "Colombia", 
+                            "Croatia", "Czech Republic", "Denmark",
+                            "Dominican Republic", "Ecuador", "Estonia",
+                            "Finland", "France", "Germany",
+                            "Ghana", "Greece", "Guatemala",
+                            "Hungary", "Iceland", "Israel", "Jordan",
+                            "Kyrgyzstan", "Latvia", "Lithuania",
+                            "Mexico", "Mongolia", "Montenegro",
+                            "Nigeria", "Norway", "Peru",
+                            "Philippines", "Poland", "Portugal",
+                            "Qatar", "Romania", "Russia",
+                            "Serbia", "Slovakia", "Slovenia",
+                            "South Korea", "Spain", "Senegal",
+                            "Sweden", "Switzerland", "Taiwan",
+                            "Tunisia", "Turkey", "United Arab Emirates",
+                            "Ukraine", "United States", "Uruguay", "Luxembourg",
+                            "Netherlands", "Italy"
+                        ]
+                    },
+                    {
+                        "option_name": "无法确定行车方向",
+                        "image": "images/unknown.jpg"
+                    }
+                ],
+                "scoring": {
+                    "右行车/左舵": {
+                        "Albania": 1, "Andorra": 1, "Argentina": 1,
+                        "Austria": 1, "Belgium": 1, "Bolivia": 1,
+                        "Brazil": 1, "Bulgaria": 1, "Cambodia": 1,
+                        "Canada": 1, "Chile": 1, "Colombia": 1, 
+                        "Croatia": 1, "Czech Republic": 1, "Denmark": 1,
+                        "Dominican Republic": 1, "Ecuador": 1, "Estonia": 1,
+                        "Finland": 1, "France": 1, "Germany": 1,
+                        "Ghana": 1, "Greece": 1, "Guatemala": 1,
+                        "Hungary": 1, "Iceland": 1, "Israel": 1, "Jordan": 1,
+                        "Kyrgyzstan": 1, "Latvia": 1, "Lithuania": 1,
+                        "Mexico": 1, "Mongolia": 1, "Montenegro": 1,
+                        "Nigeria": 1, "Norway": 1, "Peru": 1,
+                        "Philippines": 1, "Poland": 1, "Portugal": 1,
+                        "Qatar": 1, "Romania": 1, "Russia": 1,
+                        "Serbia": 1, "Slovakia": 1, "Slovenia": 1,
+                        "South Korea": 1, "Spain": 1, "Senegal": 1,
+                        "Sweden": 1, "Switzerland": 1, "Taiwan": 1,
+                        "Tunisia": 1, "Turkey": 1, "United Arab Emirates": 1,
+                        "Ukraine": 1, "United States": 1, "Uruguay": 1,
+                        "Luxembourg": 1, "Italy": 1, "Netherlands": 1
+                    },
+                    "左行车/右舵": {
+                        "United Kingdom of Great Britain and Northern Ireland": 1,
+                        "Ireland": 1, "Uganda": 1, "Kenya": 1,
+                        "South Africa": 1, "Botswana": 1, "Lesotho": 1,
+                        "Eswatini": 1, "India": 1, "Sri Lanka": 1,
+                        "Bangladesh": 1, "Bhutan": 1, "Thailand": 1, 
+                        "Malaysia": 1, "Indonesia": 1, "Australia": 1,
+                        "New Zealand": 1, "Japan": 1, "Singapore": 1, 
+                        "Malta": 1
+                    },
+                    "无法确定行车方向": {
+                    }
+                }
+            }
+        ]
+    },
+    "语言":{
+        "questions": [
+            {
+                "label": "你看到的语言类型是？",
+                "options": [
+                  {
+                    "option_name": "英语",
+                    "image": "images/english.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Chile", "Colombia", "Croatia", 
+                        "Czech Republic", "Denmark", "Dominican Republic", 
+                        "Ecuador", "Estonia", "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro", "Italy",
+                        "Norway", "Peru", "Luxembourg",
+                        "Poland", "Portugal", "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia", "South Korea", 
+                        "Spain", "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "Uruguay", "Sri Lanka", "Bangladesh", 
+                        "Bhutan", "Thailand", "Malaysia", "Indonesia", "Japan",
+                        "Senegal", "Netherlands"
+                    ]
+                  },
+                  {
+                    "option_name": "西班牙语",
+                    "image": "images/spanish.jpg",
+                    "exclude": [
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya", "South Africa", 
+                        "Botswana", "Lesotho", "Malta", "Eswatini", "India", 
+                        "Sri Lanka", "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore", "Italy",
+                        "Albania", "Andorra", "Austria", "Belgium", 
+                        "Brazil", "Bulgaria", "Cambodia", "Canada", 
+                        "Croatia", "Czech Republic", "Denmark", "Estonia",
+                        "Finland", "France", "Germany", "Ghana", "Greece", 
+                        "Guatemala", "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania", "Luxembourg", "Mongolia", 
+                        "Montenegro", "Nigeria", "Norway", "Philippines", 
+                        "Poland", "Portugal", "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia", "South Korea",
+                        "Sweden", "Switzerland", "Taiwan", "Tunisia", 
+                        "Turkey", "United Arab Emirates", "Ukraine", "Senegal",
+                        "Netherlands"
+                    ]
+                  },
+                  {
+                    "option_name": "法语",
+                    "image": "images/french.jpg",
+                    "exclude": [
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya", "Italy",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain",
+                        "Sweden", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Netherlands"
+                    ]
+                  },
+                  {
+                    "option_name": "葡萄牙语",
+                    "image": "images/portuguese.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany", "Italy",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands"
+                    ]
+                  },
+                  {
+                    "option_name": "其他拉丁字母语言",
+                    "image": "images/latin_general.jpg",
+                    "exclude": [
+                        "Andorra", "Argentina",
+                        "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", 
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania", 
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Australia", "New Zealand", "Japan", "Singapore"
+                    ]
+                  },
+                  {
+                    "option_name": "斯拉夫语系",
+                    "image": "images/slavic.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Denmark", "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania", "Mexico", "Mongolia",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Portugal", "Qatar", "Russia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "北欧语系",
+                    "image": "images/scandinavian.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", 
+                        "Dominican Republic", "Ecuador",
+                        "France", "Germany", "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Israel", "Jordan",
+                        "Kyrgyzstan", "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Peru", "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "西里尔字母",
+                    "image": "images/cyrillic.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Latvia", "Lithuania",
+                        "Mexico", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", 
+                        "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "汉语",
+                    "image": "images/chinese.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", 
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "日语",
+                    "image": "images/japanese.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "韩语",
+                    "image": "images/korean.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "Spain", "Senegal", "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "阿拉伯语",
+                    "image": "images/arabic.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Turkey", 
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "希伯来字母",
+                    "image": "images/hebrew.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "高棉语",
+                    "image": "images/khmer.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", 
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "僧伽罗语",
+                    "image": "images/sinhala.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", 
+                        "Bangladesh", "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore",
+                        "Netherlands", "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "泰语",
+                    "image": "images/thai.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "India", "Sri Lanka",
+                        "Bangladesh", "Bhutan", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore", "Netherlands",
+                        "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "天城文 / 印地语",
+                    "image": "images/devanagari.jpg",
+                    "exclude": [
+                        "Albania", "Andorra", "Argentina",
+                        "Austria", "Belgium", "Bolivia",
+                        "Brazil", "Bulgaria", "Cambodia",
+                        "Canada", "Chile", "Colombia", 
+                        "Croatia", "Czech Republic", "Denmark",
+                        "Dominican Republic", "Ecuador", "Estonia",
+                        "Finland", "France", "Germany",
+                        "Ghana", "Greece", "Guatemala",
+                        "Hungary", "Iceland", "Israel", "Jordan",
+                        "Kyrgyzstan", "Latvia", "Lithuania",
+                        "Mexico", "Mongolia", "Montenegro",
+                        "Nigeria", "Norway", "Peru",
+                        "Philippines", "Poland", "Portugal",
+                        "Qatar", "Romania", "Russia",
+                        "Serbia", "Slovakia", "Slovenia",
+                        "South Korea", "Spain", "Senegal",
+                        "Sweden", "Switzerland", "Taiwan",
+                        "Tunisia", "Turkey", "United Arab Emirates",
+                        "Ukraine", "United States", "Uruguay", "Luxembourg",
+                        "United Kingdom of Great Britain and Northern Ireland",
+                        "Ireland", "Uganda", "Kenya",
+                        "South Africa", "Botswana", "Lesotho",
+                        "Malta", "Eswatini", "Sri Lanka",
+                        "Bhutan", "Thailand", 
+                        "Malaysia", "Indonesia", "Australia",
+                        "New Zealand", "Japan", "Singapore", "Netherlands",
+                        "Italy"
+                    ]
+                  },
+                  {
+                    "option_name": "无法确定语言",
+                    "image": "images/unknown.jpg"
+                  }
+                ],
+                "scoring": {
+                  "英语": {
+                    "United States": 1, "Canada": 1, "Ireland": 1, 
+                    "United Kingdom of Great Britain and Northern Ireland": 1,
+                    "Australia": 1, "New Zealand": 1, "South Africa": 1, 
+                    "Singapore": 1, "Philippines": 1, "Botswana": 1, 
+                    "Eswatini": 1, "Malta": 1, "Kenya": 1, "India": 1,
+                    "Lesotho": 1, "Uganda": 1, "Nigeria": 1
+                  },
+                  "西班牙语": {
+                    "Argentina": 1, "Chile": 1, "Colombia": 1, "Mexico": 1, 
+                    "Peru": 1, "Uruguay": 1, "Dominican Republic": 1, 
+                    "Guatemala": 1, "Ecuador": 1, "Bolivia": 1, "Spain": 1
+                  },
+                  "法语": {
+                    "France": 1, "Belgium": 1, "Canada": 1, "Luxembourg": 1, 
+                    "Switzerland": 1, "Senegal": 1
+                  },
+                  "葡萄牙语": {
+                    "Brazil": 1, "Portugal": 1
+                  },
+                  "其他拉丁字母语言": {
+                    "Germany": 1, "Italy": 1, "Netherlands": 1, "Austria": 1,
+                    "Albania": 1, "Malaysia": 1, "Indonesia": 1, "Turkey": 1
+                  },
+                  "斯拉夫语系": {
+                    "Poland": 1, "Czech Republic": 1, "Slovakia": 1, 
+                    "Slovenia": 1, "Serbia": 1, "Montenegro": 1, 
+                    "Croatia": 1, "Bulgaria": 1, "Romania": 1
+                  },
+                  "北欧语言": {
+                    "Sweden": 1, "Norway": 1, "Denmark": 1, 
+                    "Iceland": 1, "Estonia": 1, "Finland": 1,
+                    "Latvia": 1, "Lithuania": 1
+                  },
+                  "西里尔字母": {
+                    "Russia": 1, "Ukraine": 1, "Kyrgyzstan": 1, "Mongolia": 1, 
+                    "Serbia": 1, "Bulgaria": 1
+                  },
+                  "汉语": {
+                    "Taiwan": 1
+                  },
+                  "日语": {
+                    "Japan": 1
+                  },
+                  "韩语": {
+                    "South Korea": 1
+                  },
+                  "阿拉伯语": {
+                    "United Arab Emirates": 1, "Jordan": 1, 
+                    "Qatar": 1, "Tunisia": 1, "Israel": 1
+                  },
+                  "希伯来字母": {
+                    "Israel": 1
+                  },
+                  "高棉语": {
+                    "Cambodia": 1
+                  },
+                  "僧伽罗语": {
+                    "Sri Lanka": 1
+                  },
+                  "泰语": {
+                    "Thailand": 1
+                  },
+                  "天城文 / 印地语": {
+                    "India": 1, "Bangladesh": 1
+                  },
+                  "无法确定语言": {}
+                }
+            }
+        ]
+    },
+    "太阳方位":{
+        "questions":[
+            {
+                "label": "太阳偏北还是偏南？",
+                "options": [
+                    {
+                        "option_name": "偏北",
+                        "image": "images/north_sun.jpg",
+                        "exclude": [
+                            "United Kingdom of Great Britain and Northern Ireland",
+                            "Ireland", "Malta", "India", "Sri Lanka",
+                            "Bangladesh", "Bhutan", "Thailand", 
+                            "Malaysia", "Japan", "Singapore",
+                            "Albania", "Andorra", "Austria", "Belgium",
+                            "Bulgaria", "Cambodia",
+                            "Canada", "Croatia", "Czech Republic", "Denmark",
+                            "Dominican Republic", "Estonia",
+                            "Finland", "France", "Germany",
+                            "Ghana", "Greece", "Guatemala",
+                            "Hungary", "Iceland", "Israel", "Jordan",
+                            "Kyrgyzstan", "Latvia", "Lithuania",
+                            "Mexico", "Mongolia", "Montenegro",
+                            "Nigeria", "Norway",
+                            "Philippines", "Poland", "Portugal",
+                            "Qatar", "Romania", "Russia",
+                            "Serbia", "Slovakia", "Slovenia",
+                            "South Korea", "Spain", "Senegal",
+                            "Sweden", "Switzerland", "Taiwan",
+                            "Tunisia", "Turkey", "United Arab Emirates",
+                            "Ukraine", "United States", "Luxembourg",
+                            "Netherlands", "Italy"
+                        ]
+                    },
+                    {
+                        "option_name": "偏南",
+                        "image": "images/south_sun.jpg",
+                        "exclude": [
+                            "South Africa", "Botswana", "Lesotho",
+                            "Eswatini", "Indonesia", "Australia",
+                            "New Zealand", "Argentina",
+                            "Bolivia", "Brazil", "Chile",
+                            "Ecuador", "Peru", "Uruguay"
+                        ]
+                    },
+                    {
+                        "option_name": "无法确定太阳方位",
+                        "image": "images/unknown.jpg"
+                    }
+                ],
+                "scoring": {
+                    "偏北": {
+                        "South Africa": 1, "Botswana": 1, "Lesotho": 1,
+                        "Eswatini": 1, "Indonesia": 1, "Australia": 1,
+                        "New Zealand": 1, "Argentina": 1,
+                        "Bolivia": 1, "Brazil": 1, "Chile": 1,
+                        "Ecuador": 1, "Peru": 1, "Uruguay": 1, "Kenya": 1, 
+                        "Uganda": 1, "Colombia": 1
+                    },
+                    "偏南": {
+                        "United Kingdom of Great Britain and Northern Ireland": 1,
+                        "Ireland": 1, "Malta": 1, "India": 1,  "Sri Lanka": 1, 
+                        "Bangladesh": 1, "Bhutan": 1, "Thailand": 1, 
+                        "Malaysia": 1, "Japan": 1, "Singapore": 1,
+                        "Albania": 1, "Andorra": 1, "Austria": 1, "Belgium": 1,
+                        "Bulgaria": 1, "Cambodia": 1, "Colombia": 1,
+                        "Canada": 1, "Croatia": 1, "Czech Republic": 1, "Denmark": 1,
+                        "Dominican Republic": 1, "Estonia": 1,
+                        "Finland": 1, "France": 1, "Germany": 1,
+                        "Ghana": 1, "Greece": 1, "Guatemala": 1,
+                        "Hungary": 1, "Iceland": 1, "Israel": 1, "Jordan": 1,
+                        "Kyrgyzstan": 1, "Latvia": 1, "Lithuania": 1,
+                        "Mexico": 1, "Mongolia": 1, "Montenegro": 1,
+                        "Nigeria": 1, "Norway": 1,
+                        "Philippines": 1, "Poland": 1, "Portugal": 1,
+                        "Qatar": 1, "Romania": 1, "Russia": 1,
+                        "Serbia": 1, "Slovakia": 1, "Slovenia": 1,
+                        "South Korea": 1, "Spain": 1, "Senegal": 1,
+                        "Sweden": 1, "Switzerland": 1, "Taiwan": 1,
+                        "Tunisia": 1, "Turkey": 1, "United Arab Emirates": 1,
+                        "Ukraine": 1, "United States": 1, "Luxembourg": 1,
+                        "Netherlands": 1, "Italy": 1, "Kenya": 1, "Uganda": 1
+                    },
+                    "无法确定太阳方位": {
+                    }
+                }
+            }
+        ]
+    }
+}
