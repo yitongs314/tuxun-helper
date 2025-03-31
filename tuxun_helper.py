@@ -56,6 +56,8 @@ st.markdown("""
 ⚠️目前本工具仅包括“西湖十景”题库中的国家/地区  
 ⚠️**请勿在积分匹配中使用**  
 """)
+
+
 st.markdown("### 请选择你看到的街景要素")
 
 # 加载题库
@@ -69,29 +71,31 @@ selected_keywords = st.multiselect("你看到哪些街景信息？", keywords, d
 excluded_countries = set()
 # 初始化得分
 country_scores = {}
+answers = {}
+with st.sidebar:
+    for keyword in selected_keywords:
+        topic = question_bank[keyword]
+        questions = topic["questions"]
 
-for keyword in selected_keywords:
-    topic = question_bank[keyword]
-    questions = topic["questions"]
+        for idx, q in enumerate(questions):
+            user_choice = render_image_radio(q, keyword, idx)
+            answers[q["label"]] = user_choice
+            if keyword == "太阳方位" and q["label"] == "太阳偏北还是偏南？":
+                show_sun_direction_expander()
+            if not user_choice:
+                continue
 
-    for idx, q in enumerate(questions):
-        user_choice = render_image_radio(q, keyword, idx)
-        if keyword == "太阳方位" and q["label"] == "太阳偏北还是偏南？":
-            show_sun_direction_expander()
-        if not user_choice:
-            continue
+            # 检查是否有要排除的国家
+            for opt in q["options"]:
+                if opt["option_name"] == user_choice and "exclude" in opt:
+                    excluded_countries.update(opt["exclude"])
 
-        # 检查是否有要排除的国家
-        for opt in q["options"]:
-            if opt["option_name"] == user_choice and "exclude" in opt:
-                excluded_countries.update(opt["exclude"])
-
-        # 计分（排除掉不该出现的国家）
-        scoring_table = q.get("scoring", {})
-        if user_choice in scoring_table:
-            for country, score in scoring_table[user_choice].items():
-                if country not in excluded_countries:
-                    country_scores[country] = country_scores.get(country, 0) + score
+            # 计分（排除掉不该出现的国家）
+            scoring_table = q.get("scoring", {})
+            if user_choice in scoring_table:
+                for country, score in scoring_table[user_choice].items():
+                    if country not in excluded_countries:
+                        country_scores[country] = country_scores.get(country, 0) + score
 
 # 将被排除的国家设为0（地图上没有颜色）
 for country in excluded_countries:
@@ -111,11 +115,27 @@ fig = px.choropleth(
     locations="country",
     locationmode="country names",
     color="score",
-    color_continuous_scale="Blues",
-    title="可能国家（颜色越深，可能性越高）"
+    color_continuous_scale="Blues"
 )
 
+st.markdown("当前选择总结")
+if answers:
+    for q, ans in answers.items():
+        if answers:
+            st.markdown(f"- **{q}**：{ans}")
+        else:
+            st.markdown("你还没有选择任何线索。")
+st.markdown("---")
+
 st.plotly_chart(fig, use_container_width=True)
-if excluded_countries:
-    with st.expander("❌ 查看已排除国家/地区列表"):
-        st.markdown(", ".join(sorted(excluded_countries)))
+
+with st.expander("📘 如何理解地图颜色？"):
+    st.markdown("""
+    - 深蓝色：高可能性  
+    - 中蓝色：中可能性  
+    - 浅蓝色：低可能性  
+    - 灰色：被排除
+    """)
+
+with st.expander("❌ 查看已排除国家/地区列表"):
+    st.markdown(", ".join(sorted(excluded_countries)))
