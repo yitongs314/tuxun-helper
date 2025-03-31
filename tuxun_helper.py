@@ -2,6 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 import json
+from sun_tutorial import show_sun_direction_expander
 
 st.set_page_config(page_title="GeoTrainer 辅助模式", layout="centered")
 
@@ -75,6 +76,8 @@ for keyword in selected_keywords:
 
     for idx, q in enumerate(questions):
         user_choice = render_image_radio(q, keyword, idx)
+        if keyword == "太阳方位" and q["label"] == "太阳偏北还是偏南？":
+            show_sun_direction_expander()
         if not user_choice:
             continue
 
