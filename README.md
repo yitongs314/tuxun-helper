@@ -18,7 +18,7 @@ The App automatically highlights likely countries and eliminates impossible ones
 
 ---
 
-## 支持的线索类型 | Supported Clues
+## Supported Clues | 支持的线索类型
 
 - **Language** (with image/text hints + country exclusion)  
   **语言**（图文辅助 + 国家排除） 
