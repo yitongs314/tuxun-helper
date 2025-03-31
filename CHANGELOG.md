@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [0.3.0] - 2025-03-31
+### Added / 新增
+- Added left-right layout: street clues on the left, map stays visible on the right  
+  新增左右布局界面：街景线索显示在左侧，地图展示在右侧，提高操作便利性
+
+### Improvements / 优化
+- Improved UI for better browsing and clue coordination  
+  UI 更加整洁，便于浏览和交叉参考各类信息
+
 ## [0.2.0] - 2025-03-30
 ### Added / 新增
 - Expandable section explaining sun position inference logic (@FionaHU1226)  
