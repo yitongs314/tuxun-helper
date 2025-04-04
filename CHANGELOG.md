@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [0.5.0] - 待定
+### Added / 新增
+- Domestic region for the United States, Canada, Australia, and Russia (added domestic maps for the above countries)  
+  美国、加拿大、澳大利亚和俄罗斯的国内地区判断（新增上述国家国内地图）
+### Bug Fixes / Bug 修复：
+- Fixed excluded country list display issue  
+  修正排除国家列表显示问题
+
 ## [0.4.0] - 2025-04-03
 ### Backend Refactor / 后端数据结构重构：
 - Separated question bank into multiple CSV files  
@@ -8,7 +16,7 @@
   使用 Pandas DataFrame 替代原先的 JSON 加载
 - Added excluded_country.csv for country exclusion list  
   新增 excluded_country.csv 记录排除国家
-### Bug Fixes / Bug修复：
+### Bug Fixes / Bug 修复：
 - Fixed scoring bugs of the southern hemisphere  
   修正南半球评分问题  
 
