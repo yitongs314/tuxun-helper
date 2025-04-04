@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [0.4.0] - 2025-04-03
+### Backend Refactor / 后端数据结构重构：
+- Separated question bank into multiple CSV files  
+  将街景题库从 questions.json 拆分为多个 csv 文件管理
+- Replaced JSON structure with Pandas DataFrame  
+  使用 Pandas DataFrame 替代原先的 JSON 加载
+- Added excluded_country.csv for country exclusion list  
+  新增 excluded_country.csv 记录排除国家
+### Bug Fixes / Bug修复：
+- Fixed scoring bugs of the southern hemisphere
+  修正南半球评分问题  
+
 ## [0.3.0] - 2025-03-31
 ### Added / 新增
 - Added left-right layout: street clues on the left, map stays visible on the right  
