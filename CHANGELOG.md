@@ -9,7 +9,7 @@
 - Added excluded_country.csv for country exclusion list  
   新增 excluded_country.csv 记录排除国家
 ### Bug Fixes / Bug修复：
-- Fixed scoring bugs of the southern hemisphere
+- Fixed scoring bugs of the southern hemisphere  
   修正南半球评分问题  
 
 ## [0.3.0] - 2025-03-31
