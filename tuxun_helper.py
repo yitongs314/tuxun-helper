@@ -64,7 +64,7 @@ with st.sidebar:
             ]
             exclusion_list = exclusion["excluded_country"].unique().tolist()
             for c in exclusion_list:
-                excluded_countries.update(c)
+                excluded_countries.add(c)
 
             # 计分
             utils.update_country_scores(df, q, user_answer, country_scores)
