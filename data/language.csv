@@ -1,0 +1,83 @@
+keyword,question,option,image,scoring_country,score
+语言,你看到的语言类型是？,无法确定语言,images/unknown.jpg,,
+语言,你看到的语言类型是？,英语,images/english.jpg,United States,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Canada,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Ireland,1
+语言,你看到的语言类型是？,英语,images/english.jpg,United Kingdom of Great Britain and Northern Ireland,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Australia,1
+语言,你看到的语言类型是？,英语,images/english.jpg,New Zealand,1
+语言,你看到的语言类型是？,英语,images/english.jpg,South Africa,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Singapore,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Philippines,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Botswana,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Eswatini,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Malta,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Kenya,1
+语言,你看到的语言类型是？,英语,images/english.jpg,India,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Lesotho,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Uganda,1
+语言,你看到的语言类型是？,英语,images/english.jpg,Nigeria,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Argentina,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Chile,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Colombia,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Mexico,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Peru,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Uruguay,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Dominican Republic,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Guatemala,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Ecuador,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Guatemala,1
+语言,你看到的语言类型是？,西班牙语,images/spanish.jpg,Ecuador,1
+语言,你看到的语言类型是？,法语,images/french.jpg,France,1
+语言,你看到的语言类型是？,法语,images/french.jpg,Belguim,1
+语言,你看到的语言类型是？,法语,images/french.jpg,Canada,1
+语言,你看到的语言类型是？,法语,images/french.jpg,Luxembourg,1
+语言,你看到的语言类型是？,法语,images/french.jpg,Switzerland,1
+语言,你看到的语言类型是？,法语,images/french.jpg,Senegal,1
+语言,你看到的语言类型是？,葡萄牙语,images/portuguese.jpg,Brazil,1
+语言,你看到的语言类型是？,葡萄牙语,images/portuguese.jpg,Portugal,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Germany,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Italy,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Netherlands,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Austria,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Albania,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Malaysia,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Indonesia,1
+语言,你看到的语言类型是？,其他拉丁字母语言,images/latin_general.jpg,Turkey,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Poland,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Czech Republic,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Slovakia,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Slovenia,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Serbia,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Montenegro,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Croatia,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Bulgaria,1
+语言,你看到的语言类型是？,斯拉夫语系,images/slavic.jpg,Romania,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Sweden,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Norway,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Denmark,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Iceland,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Estonia,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Finland,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Latvia,1
+语言,你看到的语言类型是？,北欧语系,images/scandinavian.jpg,Lithuania,1
+语言,你看到的语言类型是？,西里尔字母,images/cyrillic.jpg,Russia,1
+语言,你看到的语言类型是？,西里尔字母,images/cyrillic.jpg,Ukraine,1
+语言,你看到的语言类型是？,西里尔字母,images/cyrillic.jpg,Kyrgyzstan,1
+语言,你看到的语言类型是？,西里尔字母,images/cyrillic.jpg,Mongolia,1
+语言,你看到的语言类型是？,西里尔字母,images/cyrillic.jpg,Serbia,1
+语言,你看到的语言类型是？,西里尔字母,images/cyrillic.jpg,Bulgaria,1
+语言,你看到的语言类型是？,汉语,images/chinese.jpg,Taiwan,1
+语言,你看到的语言类型是？,日语,images/japanese.jpg,Japan,1
+语言,你看到的语言类型是？,韩语,images/korean.jpg,South Korea,1
+语言,你看到的语言类型是？,阿拉伯语,images/arabic.jpg,United Arab Emirates,1
+语言,你看到的语言类型是？,阿拉伯语,images/arabic.jpg,Jordan,1
+语言,你看到的语言类型是？,阿拉伯语,images/arabic.jpg,Qatar,1
+语言,你看到的语言类型是？,阿拉伯语,images/arabic.jpg,Tunisia,1
+语言,你看到的语言类型是？,阿拉伯语,images/arabic.jpg,Israel,1
+语言,你看到的语言类型是？,希伯来字母,images/hebrew.jpg,Israel,1
+语言,你看到的语言类型是？,高棉语,images/khmer.jpg,Cambodia,1
+语言,你看到的语言类型是？,僧伽罗语,images/sinhala.jpg,Sri Lanka,1
+语言,你看到的语言类型是？,泰语,images/thai.jpg,Thailand,1
+语言,你看到的语言类型是？,天城文 / 印地语,images/devanagari.jpg,India,1
+语言,你看到的语言类型是？,天城文 / 印地语,images/devanagari.jpg,Bangladesh,1

@@ -1,48 +1,11 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-import json
+import ui
+import utils
 from sun_tutorial import show_sun_direction_expander
 
 st.set_page_config(page_title="GeoTrainer 辅助模式", layout="centered")
-
-def chunk_list(lst, n):
-    """将列表每 n 项分为一组"""
-    return [lst[i:i + n] for i in range(0, len(lst), n)]
-
-def render_image_radio(question_data, keyword, q_index):
-    st.subheader(f"{question_data['label']}")
-    options = question_data["options"]
-
-    labels = []
-    image_map = {}
-
-    for opt in options:
-        label = opt["option_name"]
-        labels.append(label)
-        image_map[label] = opt.get("image", None)
-
-    # ---------- 分多行展示 ----------
-    max_per_row = 3  # 每行最多几个选项
-    rows = chunk_list(labels, max_per_row)
-
-    for row in rows:
-        cols = st.columns(len(row))
-        for i, label in enumerate(row):
-            with cols[i]:
-                if image_map[label]:
-                    st.image(image_map[label], width=120)
-                st.write(label)
-
-    # ---------- 统一选择 ----------
-    selected = st.radio("请选择一个选项：", labels, key=f"{keyword}_{q_index}_radio")
-    return selected
-
-def update_country_scores(score_dict, scoring_table, user_choice):
-    if user_choice in scoring_table:
-        for country, score in scoring_table[user_choice].items():
-            score_dict[country] = score_dict.get(country, 0) + score
-    return score_dict
 
 st.markdown("# 🌍 图寻街景训练助手")
 st.markdown("""
@@ -57,45 +20,55 @@ st.markdown("""
 ⚠️**请勿在积分匹配中使用**  
 """)
 
-
 st.markdown("### 请选择你看到的街景要素")
 
-# 加载题库
-with open("questions.json", "r", encoding="utf-8") as f:
-    question_bank = json.load(f)
+# 加载题库数据
+df_vehicle = pd.read_csv("data/vehicle.csv")
+df_sun_position = pd.read_csv("data/sun_position.csv")
+df_language = pd.read_csv("data/language.csv")
+df_excluded_country = pd.read_csv("data/excluded_country.csv")
+
+question_bank = {
+    "车牌": df_vehicle,
+    "太阳方位": df_sun_position,
+    "语言": df_language
+}
 
 keywords = list(question_bank.keys())
 selected_keywords = st.multiselect("你看到哪些街景信息？", keywords, default=keywords)
 
-# 初始化排除国家dictionary
+# 初始化排除国家
 excluded_countries = set()
 # 初始化得分
 country_scores = {}
 answers = {}
+
+# 左侧sidebar
 with st.sidebar:
     for keyword in selected_keywords:
-        topic = question_bank[keyword]
-        questions = topic["questions"]
-
-        for idx, q in enumerate(questions):
-            user_choice = render_image_radio(q, keyword, idx)
-            answers[q["label"]] = user_choice
-            if keyword == "太阳方位" and q["label"] == "太阳偏北还是偏南？":
+        df = question_bank[keyword]
+        questions = df["question"].unique().tolist()
+        for i, q in enumerate(questions):
+            #subset = df[df["question"]==q]
+            user_answer = ui.render_image_radio(df, q, i)
+            answers[q] = user_answer
+            if keyword == "太阳方位": # and q["label"] == "太阳偏北还是偏南？":
                 show_sun_direction_expander()
-            if not user_choice:
+            if not user_answer:
                 continue
 
-            # 检查是否有要排除的国家
-            for opt in q["options"]:
-                if opt["option_name"] == user_choice and "exclude" in opt:
-                    excluded_countries.update(opt["exclude"])
+            # 更新 excluded_countries
+            exclusion = df_excluded_country[
+                (df_excluded_country["question"] == q) & 
+                (df_excluded_country["option"] == user_answer)
+            ]
+            exclusion_list = exclusion["excluded_country"].unique().tolist()
+            for c in exclusion_list:
+                excluded_countries.update(c)
 
-            # 计分（排除掉不该出现的国家）
-            scoring_table = q.get("scoring", {})
-            if user_choice in scoring_table:
-                for country, score in scoring_table[user_choice].items():
-                    if country not in excluded_countries:
-                        country_scores[country] = country_scores.get(country, 0) + score
+            # 计分
+            utils.update_country_scores(df, q, user_answer, country_scores)
+            
 
 # 将被排除的国家设为0（地图上没有颜色）
 for country in excluded_countries:

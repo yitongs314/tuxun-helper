@@ -1,0 +1,266 @@
+keyword,question,option,image,scoring_country,score
+车辆,你看到的车牌颜色是？,无法确定车牌颜色,images/unknown.jpg,,
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Andorra,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Australia,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Bolivia,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Bostwana,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Cambodia,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Chile,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Canada,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Ecuador,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Guatemala,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Ghana,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Japan,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Iceland,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,India,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Kenya,0.5
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Lesotho,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Mexico,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Mongolia,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,New Zealand,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Nigeria,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Peru,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Philippines,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Russia,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,South Africa,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,South Korea,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Sri Lanka,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Switzerland,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Taiwan,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Thailand,1
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,Tunisia,0.5
+车辆,你看到的车牌颜色是？,纯白色,images/white_plate.jpg,United States,1
+车辆,你看到的车牌颜色是？,纯蓝色,images/blue_plate.jpg,Senegal,1
+车辆,你看到的车牌颜色是？,纯蓝色,images/blue_plate.jpg,United States,0.25
+车辆,你看到的车牌颜色是？,纯绿色,images/green_plate.jpg,Norway,3
+车辆,你看到的车牌颜色是？,纯绿色,images/green_plate.jpg,United States,1
+车辆,你看到的车牌颜色是？,纯红色,images/red_plate.jpg,Bhutan,3
+车辆,你看到的车牌颜色是？,纯红色,images/red_plate.jpg,Ghana,0.5
+车辆,你看到的车牌颜色是？,纯黑色,images/black_plate.jpg,Bangladesh,1
+车辆,你看到的车牌颜色是？,纯黑色,images/black_plate.jpg,Indonesia,3
+车辆,你看到的车牌颜色是？,纯黑色,images/black_plate.jpg,Malaysia,3
+车辆,你看到的车牌颜色是？,纯黑色,images/black_plate.jpg,Singapore,3
+车辆,你看到的车牌颜色是？,纯黑色,images/black_plate.jpg,Tunisia,1
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,Australia,0.25
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,Botswana,1
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,Colombia,1
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,Japan,0.5
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,Kenya,1
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,Sri Lanka,0.5
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,United Kingdom of Great Britain and Northern Ireland,1
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,United States,0.25
+车辆,你看到的车牌颜色是？,纯黄色,images/yellow_plate.jpg,Uganda,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Albania,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Austria,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Belgium,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Bulgaria,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Croatia,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Czech Republic,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Denmark,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Estonia,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Finland,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Germany,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Greece,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Hungary,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Ireland,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Iceland,0.5
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Latvia,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Lithuania,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Malta,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Montenegro,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Norway,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Poland,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Portugal,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Romania,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Serbia,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Slovakia,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Slovenia,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Spain,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Sweden,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Turkey,1
+车辆,你看到的车牌颜色是？,左蓝右白,images/blue_white_plate.jpg,Ukraine,0.5
+车辆,你看到的车牌颜色是？,左蓝中白右蓝,images/blue_white_blue_plate.jpg,France,3
+车辆,你看到的车牌颜色是？,左蓝中白右蓝,images/blue_white_blue_plate.jpg,Italy,3
+车辆,你看到的车牌颜色是？,左蓝中白右蓝,images/blue_white_blue_plate.jpg,Albania,1
+车辆,你看到的车牌颜色是？,左蓝中白右蓝,images/blue_white_blue_plate.jpg,New Zealand,0.25
+车辆,你看到的车牌颜色是？,左蓝右黄,images/blue_yellow_plate.jpg,Denmark,0.25
+车辆,你看到的车牌颜色是？,左蓝右黄,images/blue_yellow_plate.jpg,France,0.25
+车辆,你看到的车牌颜色是？,左蓝右黄,images/blue_yellow_plate.jpg,Israel,3
+车辆,你看到的车牌颜色是？,左蓝右黄,images/blue_yellow_plate.jpg,Luxembourg,3
+车辆,你看到的车牌颜色是？,左蓝右黄,images/blue_yellow_plate.jpg,Netherlands,3
+车辆,你看到的车牌颜色是？,左红右白,images/left_red_right_white_plate.jpg,Jordan,1
+车辆,你看到的车牌颜色是？,左红右白,images/left_red_right_white_plate.jpg,Tunisia,0.25
+车辆,你看到的车牌颜色是？,左红右白,images/left_red_right_white_plate.jpg,United Arab Emirates,1
+车辆,你看到的车牌颜色是？,左红右白,images/left_red_right_white_plate.jpg,Kyrgyzstan,1
+车辆,你看到的车牌颜色是？,左红右白,images/left_red_right_white_plate.jpg,Qatar,1
+车辆,你看到的车牌颜色是？,上蓝下白,images/top_blue_bottom_white_plate.jpg,Argentina,1
+车辆,你看到的车牌颜色是？,上蓝下白,images/top_blue_bottom_white_plate.jpg,Brazil,1
+车辆,你看到的车牌颜色是？,上蓝下白,images/top_blue_bottom_white_plate.jpg,United States,0.25
+车辆,你看到的车牌颜色是？,上蓝下白,images/top_blue_bottom_white_plate.jpg,Uruguay,1
+车辆,你看到的车牌形状是？,无法确定车牌形状,images/unknown.jpg,,
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Argentina,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Austria,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Australia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Belgium,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Bostwana,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Brazil,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Bulgaria,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Chile,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Croatia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Czech Republic,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Denmark,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Estonia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Eswatini,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Finland,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,France,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Germany,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Ghana,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Ghana,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Greece,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Hungary,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Iceland,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,India,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Indonesia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Ireland,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Israel,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Jordan,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Kyrgyzstan,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Latvia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Lesotho,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Lithuania,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Luxembourg,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Malaysia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Malta,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Mongolia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Montenegro,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Netherlands,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,New Zealand,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Norway,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Philippines,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Poland,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Portugal,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Qatar,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Romania,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Russia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Senegal,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Serbia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Singapore,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Slovakia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Slovenia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,South Africa,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,South Korea,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Spain,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Sri Lanka,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Sweden,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Switzerland,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Tunisia,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Turkey,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Uganda,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Ukraine,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,United Arab Emirates,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,United Kingdom of Great Britain and Northern Ireland,1
+车辆,你看到的车牌形状是？,矮长牌,images/矮长_plate.jpg,Uruguay,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Bangladesh,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Bhutan,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Bolivia,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Cambodia,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Canada,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Colombia,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Dominican Republic,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Ecuador,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Guatemala,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Japan,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Mexico,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Nigeria,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Peru,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Taiwan,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,Thailand,1
+车辆,你看到的车牌形状是？,高短牌,images/高短_plate.jpg,United States,1
+车辆,你看到的车牌形状是？,前矮短/后矮长,images/前矮短后矮长_plate.jpg,Italy,3
+车辆,你看到的车牌形状是？,前矮长/后高短,images/前矮长后高短_plate.jpg,Kenya,1
+车辆,你看到的车牌形状是？,前矮长/后高短,images/前矮长后高短_plate.jpg,Switzerland,0.5
+车辆,你看到的车牌形状是？,前矮长/后高短,images/前矮长后高短_plate.jpg,Uganda,0.5
+车辆,你看到的行车方向或方向盘位置是？,无法确定行车方向,images/unknown.jpg,,None
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Albania,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Andorra,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Argentina,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Austria,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Belgium,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Bolivia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Brazil,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Bulgaria,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Cambodia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Canada,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Chile,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Colombia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Croatia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Czech Republic,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Denmark,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Dominican Republic,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Ecuador,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Estonia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Finland,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,France,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Germany,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Ghana,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Greece,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Guatemala,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Hungary,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Iceland,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Israel,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Jordan,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Kyrgyzstan,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Latvia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Lithuania,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Mexico,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Mongolia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Montenegro,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Nigeria,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Norway,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Peru,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Philippines,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Poland,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Portugal,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Qatar,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Romania,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Russia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Serbia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Slovakia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Slovenia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,South Korea,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Bulgaria,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Spain,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Senegal,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Sweden,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Switzerland,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Taiwan,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Tunisia,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Turkey,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,United Arab Emirates,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Ukraine,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,United States,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Uruguay,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Luxembourg,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Italy,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Canada,1
+车辆,你看到的行车方向或方向盘位置是？,右行车/左舵,images/right_side_driving.jpg,Netherlands,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,United Kingdom of Great Britain and Northern Ireland,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Ireland,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Uganda,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Kenya,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,South Africa,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Botswana,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Lesotho,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Eswatini,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,India,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Sri Lanka,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Bangladesh,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Bhutan,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Thailand,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Malaysia,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Indonesia,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Australia,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,New Zealand,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Japan,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Singapore,1
+车辆,你看到的行车方向或方向盘位置是？,左行车/右舵,images/left_side_driving.jpg,Malta,1
